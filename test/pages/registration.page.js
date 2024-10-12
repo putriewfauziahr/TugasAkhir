@@ -1,7 +1,7 @@
 class registrationPage {
   
     async open() {
-      await browser.url('https://kasirdemo.belajarqa.com/');
+      await browser.url('https://kasirdemo.vercel.app/');
     }
 
     get nameInput() {
