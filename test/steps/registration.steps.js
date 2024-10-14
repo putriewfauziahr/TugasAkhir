@@ -10,7 +10,7 @@ Given(/^I open the KasirAja website$/, async () => {
 
 
 When(/^I do Registration Process$/, async () => {
-  await registrationPage.regist('Serba Ada Store', 'store.new3@mailinator.com', '@123Testing');
+  await registrationPage.regist('Serba Ada Store', 'store.new13@mailinator.com', '@123Testing');
 });
 
 Then(/^Registration process is success$/, async () => {
